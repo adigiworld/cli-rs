@@ -1,0 +1,19 @@
+[package]
+name = "echors"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+# clap = "4.6.7"
+clap = "2.33"
+
+
+[dev-dependencies]
+assert_cmd = "2"
+predicates = "2"
+
+
+[[bin]]
+name="args"
+path="src/bin/args.rs"
